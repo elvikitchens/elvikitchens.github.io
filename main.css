@@ -1,0 +1,214 @@
+/*
+ CSS HEX 
+--barn-red: #750e00ff;
+--international-orange-golden-gate-bridge: #c23523ff;
+--cadet-grey: #8499a9ff;
+--baby-powder: #fdfff7ff;
+--space-cadet: #192a51ff;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
+
+.color1 {
+  background-color: #94a53f;
+  color: #ffffff;
+}
+.color2 {
+  background-color: #e2b808;
+  color: #ffffff;
+}
+.color3 {
+  background-color: #e69542;
+  color: #ffffff;
+}
+#logo{
+    object-fit: contain;
+width: 50%;
+height: auto;
+
+  
+}
+#zomato{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  width: 25%;
+  height: auto;
+
+}
+#swiggy{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  width: 50%;
+  height: auto;
+  flex: right;
+  max-width: 200%;
+  max-height: 200%;
+ 
+}
+
+
+/*Centers Image on Blog*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+/*Format Imgs*/
+
+/*Title*/
+header {
+  font-family: cursive;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 25px;
+  text-align: center;
+}
+/*Post on grid*/
+t*/
+
+/*Large Text*/
+.fontLargetitle {
+  font-size: 75px;
+}
+
+/*Any Text I write*/
+.mainText {
+  font-family: "Oranienbaum", serif;
+  text-decoration: none;
+  color: black;
+}
+
+
+.main {
+  flex: 50%;
+  background-color: white; /* White background color */
+  padding: 20px;
+}
+/*Footer*/
+.contact {
+  /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+  text-decoration: none;
+  flex: 50%;
+}
+
+/*Makes Font size of caption small and changes color*/
+
+/*Nav Bar*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+ 
+
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  .navbar a.right {
+    float: none;
+    width: 100%;
+  }
+  .contact {
+    display: none;
+  }
+}
+@media screen and (min-width: 400px) {
+  .navbar a.right {
+    float: right;
+  }
+}
+@media screen and (min-width: 701px) {
+  .header {
+    font-size: 50px;
+  }
+
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columnimg {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnimg {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  nav a {
+    float: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .contact {
+    display: none;
+  }
+}
+@media screen and (max-width: 595px) {
+  html {
+    text-align: center;
+    display: block;
+  }
+  header {
+    font-size: 25px;
+  }
+  #logo{
+    object-fit: contain;
+width: 100%;
+height: auto;
+
+  
+}
+#zomato{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  width: 50%;
+  height: auto;
+
+}
+#swiggy{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  flex: right;
+  max-width: 200%;
+  max-height: 200%;
+ 
+}
+}
