@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+   
     <title>Sadak Chaap</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <!--My style sheet and W3 style sheet-->
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS local fallback -->
+    <script>
+      var test = document.createElement("div");
+      test.className = "hidden d-none";
+
+      document.head.appendChild(test);
+      var cssLoaded = window.getComputedStyle(test).display === "none";
+      document.head.removeChild(test);
+
+      if (!cssLoaded) {
+        var link = document.createElement("link");
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        link.href = "lib/bootstrap.min.css";
+
+        document.head.appendChild(link);
+      }
+    </script>
+  <link rel="stylesheet" href="main.css">
   </head>
-
   <body>
-    <header class="color1">
-      <h1>Elvi Kitchens</h1>
-    </header>
-
-    <main>
-      <div class="row">
-        <div class="center main color5">
-         
-            
-           <img id='logo'src="Images/Logo.png" alt="Logo">
-           <div class="row">
-            <div class="column">
-                <a href="https://www.swiggy.com/restaurants/sadak-chaap-tilak-rd-himayath-nagar-hyderabad-738491"> <img id="swiggy" src="Images/Swiggy (2).png" alt="Swiggy"></a>
-            </div>
-            <div class="column">
-                <a href="https://www.zomato.com/hyderabad/sadak-chaap-abids"><img id="zomato" src="Images/Zomato_logo-removebg-preview.png" alt="Zomato"></a>
-            </div>
-         
-          </div>
+    <div class="text-bg-color     text-center">
+     <header class=" p-5 font color1"">
+        <img class="" id="logo" src="Images/elvi dark.png" alt="">
+      </header> 
+     
+    </div>
+    
+        <div class="center main ">
+          <a href="https://www.instagram.com/elvikitchens_/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><img id='logo'src="Images/Logo.png" alt="Logo"></a>
+        </div>
+        <div>   
+          <a href="https://www.swiggy.com/restaurants/sadak-chaap-tilak-rd-himayath-nagar-hyderabad-738491"> <img id="swiggy" class="" src="Images/Swiggy (2).png" alt="Swiggy"></a>
+        </div>
+        <div>   
+          <a href="https://www.zomato.com/hyderabad/sadak-chaap-abids"><img id="zomato" class="" src="Images/Zomato_logo-removebg-preview.png" alt="Zomato"></a>
+        </div>
+     
                
                 
-              
-            </h5>
-          </a>
-        </div>
-      </div>
-    </main>
+            
+       
+        
+      
+   
 
-    <footer>
-      <p style="text-align: center">
-        Copyright &copy; 2021-
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
-        Elvi Kitchens All Rights Reserved
-      </p>
-    </footer>
+    <!-- Bootstrap JS CDN -->
+    <script src="~https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS local fallback -->
+    <script>
+      if (typeof $.fn.modal === "undefined") {
+        document.write('<script src="lib/bootstrap.min.js"><\/script>');
+      }
+    </script>
   </body>
 </html>
