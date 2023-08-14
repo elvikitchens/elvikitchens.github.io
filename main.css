@@ -13,13 +13,15 @@
 }
 #logo{
     object-fit: contain;
-width: 50%;
+width: 100%;
 background-color: #fffef2;
 height: auto;
 
   
 }
-
+.header{
+  background-image: url("Images/elvi\ light.png");
+}
 
 #zomato{
 
